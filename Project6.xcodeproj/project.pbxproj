@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CFA9C9F243FC04200844817 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA9C9E243FC04200844817 /* main.cpp */; };
+		3CFA9CA7243FC09B00844817 /* hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA9CA5243FC09B00844817 /* hash.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		3CFA9C9B243FC04200844817 /* Project6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project6; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFA9C9E243FC04200844817 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3CFA9CA5243FC09B00844817 /* hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hash.cpp; sourceTree = "<group>"; };
+		3CFA9CA6243FC09B00844817 /* hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		3CFA9CA8243FC0EA00844817 /* hashmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashmap.h; sourceTree = "<group>"; };
+		3CFA9CAB243FC1FB00844817 /* mega_millions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mega_millions.csv; path = Project6/mega_millions.csv; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,11 @@
 		3CFA9C9D243FC04200844817 /* Project6 */ = {
 			isa = PBXGroup;
 			children = (
+				3CFA9CAB243FC1FB00844817 /* mega_millions.csv */,
 				3CFA9C9E243FC04200844817 /* main.cpp */,
+				3CFA9CA5243FC09B00844817 /* hash.cpp */,
+				3CFA9CA6243FC09B00844817 /* hash.h */,
+				3CFA9CA8243FC0EA00844817 /* hashmap.h */,
 			);
 			path = Project6;
 			sourceTree = "<group>";
@@ -120,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CFA9C9F243FC04200844817 /* main.cpp in Sources */,
+				3CFA9CA7243FC09B00844817 /* hash.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
